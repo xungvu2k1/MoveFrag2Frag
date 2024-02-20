@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SIM_dark_mode_color_blue"
+    android:orientation="vertical"
+    tools:context=".DetailFragment">
+
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Detail"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_name_of_fruit"
+        android:layout_width="650dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/system_error_dark" />
+
+    <TextView
+        android:id="@+id/tv_about_the_fruit"
+        android:layout_width="650dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/system_error_dark" />
+
+    <TextView
+        android:id="@+id/tv_back_detail"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="420dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/system_error_dark"
+        android:gravity="center"
+        android:text="@string/back"
+        android:textSize="20sp" />
+</LinearLayout>
